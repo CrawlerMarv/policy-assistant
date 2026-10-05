@@ -1,0 +1,4 @@
+approach,model,answered,accuracy,correct_policy_in_scope,correctly_declined_out_of_scope,unsupported_rate,avg_seconds,median_seconds,avg_tokens
+Rules-based search (BM25),—,20/20,65%,9/15,4/5,5%,0.00,0.00,0
+LLM without vector index,gemini/gemini-3.5-flash-lite,20/20,100%,15/15,5/5,0%,0.91,0.88,2128
+LLM with vector index (RAG),gemini/gemini-3.5-flash-lite,20/20,100%,15/15,5/5,0%,0.78,0.78,290

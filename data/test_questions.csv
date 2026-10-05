@@ -1,0 +1,21 @@
+question,expected_policy,type
+How many vacation days do I get per year?,Vacation Policy,direct
+Can I carry over vacation days I didn't use?,Vacation Policy,direct
+How often do I have to change my password?,Password Policy,direct
+How long is the probation period for new hires?,Probation Period Policy,direct
+How long is paid parental leave?,Parental Leave Policy,direct
+How long are products covered under warranty?,Warranty Policy,direct
+When do I have to submit receipts for travel expenses?,Travel Reimbursement Policy,direct
+How many days a week can I work from home?,Remote Work Policy,paraphrase
+Can I wear jeans to the office?,Dress Code Policy,paraphrase
+Do I need sign-off before spending $800 on a business expense?,Expense Approval Policy,paraphrase
+How much time off do I get when a family member dies?,Bereavement Leave Policy,paraphrase
+Can I work from Spain for a few weeks?,Work From Abroad Policy,paraphrase
+Who is allowed to talk to journalists?,Media Contact Policy,paraphrase
+Can I get a standing desk for my home office?,Home Office Equipment Policy,paraphrase
+How many sick days do I get per year?,Sick Leave Policy,detail_missing
+What is the annual bonus percentage?,,out_of_scope
+Can I bring my dog to the office?,,out_of_scope
+Is lunch in the cafeteria free?,,out_of_scope
+How much is the monthly allowance for home internet?,,out_of_scope
+What is the maximum hotel price per night on business trips?,,out_of_scope
