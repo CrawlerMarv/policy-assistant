@@ -59,6 +59,16 @@ REPO_URL = "https://github.com/<user>/<repo>"
 
 Der Ordner `results/` muss mit ins Repo, sonst zeigt die Website keine Evaluationsergebnisse.
 
+## Slack-Bot
+
+Der Bot beantwortet Erwähnungen im Channel mit dem bevorzugten Ansatz (LLM mit Vektorindex) und nennt die relevante Policy. Er läuft lokal über Socket Mode:
+
+```bash
+python slack_bot.py
+```
+
+Einrichtung: Slack-App unter api.slack.com/apps mit `slack_manifest.yml` anlegen, im Workspace installieren, App-Level-Token mit Scope `connections:write` erzeugen und beide Tokens (`SLACK_BOT_TOKEN`, `SLACK_APP_TOKEN`) in `.env` eintragen. Im Channel den Bot mit `/invite @Policy Bot` hinzufügen und mit `@Policy Bot <Frage>` aufrufen.
+
 ## Metriken (`evaluate.py`)
 
 - **accuracy**: richtige Policy genannt bzw. korrekt abgelehnt, wenn keine Policy passt

@@ -6,3 +6,4 @@ snowballstemmer
 python-dotenv
 streamlit>=1.50
 pandas
+slack_bolt>=1.18
